@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC:wght@400&display=swap');
+
+:root {
+    --primary-color: #412d21;
+    --primary-text-color: white;
+    --primary-font: 'IM Fell English SC', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: var(--primary-font);
+    margin: 0;
+    color: var(--primary-text-color);
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+img{
+    width: 4vw;
+    border-radius: 100%;
+    border: 1px solid var(--primary-text-color);
+}
+
+.nav-heading {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.text-area {
+    font-family: var(--primary-font), cursive;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+}
+
+#output {
+    width: 100%;
+    min-height: 10vh;
+    overflow: scroll;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.container {
+    margin: auto;
+    padding: 1rem;
+    width: 35%;
+}
+
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+}
+
+.footer-header {
+    font-size: xx-large;
+
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem 3rem;
+    margin: 1rem 0rem;
+    font-size: large;
+    font-family: var(--primary-font), cursive;
+    ;
+    color:var(--primary-text-color)
+}
+
+.translation-heading{
+    color: var(--primary-color);
+}
+
+h3{
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: 3rem;
+}
+
+.footer p{
+    font-size: large;
+}
