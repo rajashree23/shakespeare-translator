@@ -93,3 +93,9 @@ h3{
 .footer p{
     font-size: large;
 }
+@media (max-width:768px) {
+   img{
+       display:none
+    }
+}
+
